@@ -24,10 +24,10 @@ spec:
 apiVersion: v1
 kind: Service
 metadata:
-  name: web
+  name: convert-temp
 spec:
   selector:
-    app: web
+    app: convert-temp
   ports:
    - port: 8080
   type: LoadBalancer     
